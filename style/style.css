@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 /* font-family: "Work Sans", sans-serif; */
 
 *{
@@ -132,6 +133,9 @@ color: rgb(16, 16, 16);
     gap:23px; 
     justify-content: center;
     align-items: center;
+    background-color: rgba(250, 233, 233, 0.7);
+    border-radius: 10px;
+  
 }
 
 .card .img-box{
@@ -148,4 +152,111 @@ color: rgb(16, 16, 16);
     border-radius: 8px;
     background: rgba(82, 195, 3, 0.15);
     padding: 14px 32px 14px 32px;
+    font-weight: 600;
+}
+
+.container #card-box-btn{
+    display: flex; 
+    justify-content: center;  
+    align-items: center;
+    font-size: 16px;
+    width:150px; 
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    line-height: 23px;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0%;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top:20px; 
+    border: 0;
+    background: rgb(82, 195, 3);
+    cursor: pointer;
+}
+
+.card-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------2nd section END ---------- */
+
+
+/* ----3rd Section START---- */
+
+
+
+.footer{
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+    width: 1720px;
+    height: 671px;   
+}
+.footer .footer-img{
+    width: 1060px;
+    height:450px;
+    overflow: hidden;
+    padding-left: 20px;
+    
+}
+
+.footer .footer-message{
+    /* We always make sure to provide you with good food */
+      
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 20px;
+    
+        color: rgb(16, 16, 16);
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: 5%;
+        text-align: center;
+        font-family: Work Sans;
+}
+
+.footer .footer-message .footer-title{
+    width: 805px;
+    height: 128px;
+    margin-top: 45px;
+    padding-left: 48px;
+    padding-right: 38px;
+}
+
+.footer .footer-message .footer-sub-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 576px;
+    height: 29px;
+    color: rgb(16, 16, 16);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    font-family: Work Sans;
+    margin-top: 38px;
+    opacity: 0.6;
+
+}
+
+.footer .footer-message .follow{
+    width: 201px;
+    opacity: 0.7;
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    height: 39px;
+    margin-top:50px;
 }
